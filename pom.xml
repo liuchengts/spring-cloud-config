@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <groupId>modon</groupId>
-    <artifactId>cloud</artifactId>
+    <artifactId>spring-cloud-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>cloud</name>
-    <description>cloud</description>
+    <name>spring-cloud-config</name>
+    <description>spring-cloud-config</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.vesion>1.8</java.vesion>
