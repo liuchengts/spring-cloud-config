@@ -3,10 +3,10 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/modaots/cloud-config-repo.git #远程配置，获取spring的配置
+          uri: https://github.com/liuchengts/cloud-config-repo.git #远程配置，获取spring的配置
           search-paths: dev
-          username: hzmodao@163.com
-          password: hzmodao
+          # username: 
+          #password: 
           basedir: target/config  #git的配置文件会加载到本地的目录
       uri: http://localhost:8888
       label: master
