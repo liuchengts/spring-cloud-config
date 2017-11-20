@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/liuchengts/cloud-config-repo.git #远程配置，获取spring的配置
+          uri: https://github.com/liuchengts/spring-cloud-config.git/config-repo/ #远程配置，获取spring的配置
           search-paths: dev
           # username: 
           #password: 
