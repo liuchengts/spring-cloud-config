@@ -4,6 +4,7 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888 #配置中心
+      failFast: true  #允许客户端启动快速失败
 
 server:
-    port: 8881
+    port: 9800

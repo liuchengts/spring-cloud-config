@@ -7,7 +7,7 @@ spring:
           search-paths: dev
           # username: 
           #password: 
-          basedir: target/config  #git的配置文件会加载到本地的目录
+          basedir: cloud/config  #git的配置文件会加载到本地的目录
       uri: http://localhost:8888
       label: master
 server:
